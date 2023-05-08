@@ -11,7 +11,7 @@ This is dev branch.
 
 - App Link (deploy on main branch):
 
-https://capsule-igtc.onrender.com
+https://time-capsule.onrender.com
 
 ### Students
 
