@@ -1,13 +1,4 @@
-# Module 1 Group Assignment
-
-CSCI 5117, Spring 2023, [assignment description](https://canvas.umn.edu/courses/355584/pages/project-1)
-
 ## App Info:
-
-This is dev branch.
-
-- Team Name: Capsule
-- App Name: Capsule
 
 - App Link (deploy on main branch):
 
