@@ -1,4 +1,4 @@
-## App Info
+## Time-Capsule
 
 - App Link (deploy on main branch):
 
@@ -13,18 +13,12 @@ https://time-capsule.onrender.com
 
 ## Key Features
 
-**Describe the most challenging features you implemented
-(one sentence per bullet, maximum 4 bullets):**
-
 - Applied a decorator to restrict some actions (such as commenting or liking) for users who are not logged in.
 - Implemented full text search and fuzzy search to allow users to find photos based on their captions or descriptions.
 - Realized Responsive design that makes web pages render well on different devices and screen sizes and adaptable to mobile devices.
 - Implemented comment and like system to enable real-time communication and feedback among users without reloading the page.
 
 ## Testing Notes
-
-**Is there anything special we need to know in order to effectively test your app? (optional):**
-Here are suggestions for testing:
 
 1. Click the 'exploring' button on the landing page to see the gallery
 2. Without logging in, click any post to see the comments page
@@ -42,9 +36,6 @@ Here are suggestions for testing:
 14. Click the 'logout' button to logout and redirect to the landing page
 
 ## Screenshots of Site
-
-**[Add a screenshot of each key page (around 4)](https://stackoverflow.com/questions/10189356/how-to-add-screenshot-to-readmes-in-github-repository)
-along with a very brief caption:**
 
 ### Gallery
 
@@ -68,28 +59,14 @@ along with a very brief caption:**
 
 ## External Dependencies
 
-**Document integrations with 3rd Party code or services here.
-Please do not document required libraries. or libraries that are mentioned in the product requirements**
-
 - Web Hosting: [Render](https://render.com/)
 - Database: [PostgreSQL on Render](https://render.com/docs/postgres)
 - Photo Storage: [Imagekit](https://imagekit.io/)
 - Authentication: [Auth0](https://auth0.com/)
 
-**If there's anything else you would like to disclose about how your project
-relied on external code, expertise, or anything else, please disclose that
-here:**
-None
-
 # Legacy
 
 ## Mock-up
-
-There are a few tools for mock-ups. Paper prototypes (low-tech, but effective and cheap), Digital picture edition software (gimp / photoshop / etc.), or dedicated tools like moqups.com (I'm calling out moqups here in particular since it seems to strike the best balance between "easy-to-use" and "wants your money" -- the free teir isn't perfect, but it should be sufficient for our needs with a little "creative layout" to get around the page-limit)
-
-In this space please either provide images (around 4) showing your prototypes, OR, a link to an online hosted mock-up tool like moqups.com
-
-https://www.figma.com/file/t4tzlTlzw1cuJrDizenWRE/Capsule-Prototype?node-id=0%3A1&t=Ao2MbAzyLNCByPPH-1
 
 ### Preview
 
