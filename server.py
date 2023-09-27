@@ -156,7 +156,7 @@ def comments(id):
         
         return render_template('comments.html', session=getSession, comments=commentsJson, photoJson=photoJson)
     else:
-        return redirect(url_for('header'))
+        return redirect(url_for('login'))
 
 
 @app.route("/addPost", methods=["GET", "POST"])
@@ -191,7 +191,7 @@ def addPost():
 
         return render_template('addPost.html', session=getSession)
     else:
-        return redirect(url_for('header'))
+        return redirect(url_for('login'))
 
 
 @app.route("/deletePost", methods=["POST"])
@@ -227,7 +227,7 @@ def profile():
         return render_template('profile.html', photos=photos, session=getSession,
                                posts_count=posts_count, personal_likes_count=personal_likes_count)
     else:
-        return redirect(url_for('header'))
+        return redirect(url_for('login'))
 
 
 @app.route("/liked", methods=["GET", "POST"])
@@ -250,7 +250,7 @@ def liked():
         return render_template('profile.html', photos=photos, personal_likes=personal_likes, session=getSession,
                                posts_count=posts_count, personal_likes_count=personal_likes_count)
     else:
-        return redirect(url_for('header'))
+        return redirect(url_for('login'))
 
 
 @app.route("/editPost", methods=["GET", "POST"])
